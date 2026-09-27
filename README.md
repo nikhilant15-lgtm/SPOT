@@ -1,4 +1,4 @@
-# 🅿️ ParkEase — Smart Parking Lot Management System
+# 🅿️ SPOT — Smart Parking Operating Terminal
 
 A console-based parking lot management system built using core Java fundamentals — no frameworks, no external libraries.
 
@@ -19,7 +19,7 @@ A console-based parking lot management system built using core Java fundamentals
 ## Project Structure
 
 ```
-parkease/
+spot/
 ├── vehicle/      → Vehicle (abstract), Car, Bike, Truck
 ├── slot/         → ParkingSlot, Floor, SlotManager
 ├── entry/        → Ticket, EntryGate
@@ -61,12 +61,12 @@ cd out && java Main
 
 ## Pricing
 
-| Vehicle | Rate       |
-|---------|------------|
-| Bike    | ₹10 / hr   |
-| Car     | ₹20 / hr   |
-| Truck   | ₹40 / hr   |
-| Season Pass (Weekly) | ₹500 flat |
+| Vehicle | Rate |
+|---------|------|
+| Bike    | ₹10 / hr |
+| Car     | ₹20 / hr |
+| Truck   | ₹40 / hr |
+| Season Pass (Weekly)  | ₹500 flat |
 | Season Pass (Monthly) | ₹1500 flat |
 
 ---
